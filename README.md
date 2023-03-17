@@ -1,2 +1,10 @@
-# Rock-Paper-Scissor-Game
-This is a Rock Paper Scissor Game using using React.Js
+# Frontend Mentor - Rock, Paper, Scissors
+
+![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
+
+# Installation
+
+`npm install`
+
+# Run the project
+`npm run start`
