@@ -9,7 +9,7 @@ const RulesStyled = styled.div`
   &::before {
     content: '';
     display: ${({ visible }) => visible ? 'block' : 'none'};
-    position: absolute;
+    position: fixed;
     z-index: 2;
     left: 0;
     right: 0;
@@ -55,7 +55,7 @@ const RulesStyled = styled.div`
       width: 400px;
       margin: auto;
       border-radius: 10px;
-      top: 0;
+      top: -20%;
       bottom: initial;
       transform: translateY(50%);
       padding: 2em;

@@ -9,7 +9,7 @@ const HeaderStyled = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 3px solid rgba(255, 255,255, .29);
+  border: 3px solid rgba(255,255,255, .29);
   h1 {
     font-size: 18px;
     line-height: 16px;
@@ -33,7 +33,6 @@ function Header() {
         Rock <br /> Paper <br />  Scissors
       </h1>
       <Score />
-
     </HeaderStyled>
   )
 }
